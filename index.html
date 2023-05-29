@@ -49,12 +49,12 @@
               Create a new post
             </button>
         </div>
-        <div class="btn-group" role="group">
+        <div class="btn-group ps-2 dropdown-center" role="group">
           <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
             aria-expanded="false">
             <i class="bi bi-gear-fill"></i>
           </button>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu ">
             <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><a class="dropdown-item" href="#">Accesibily</a></li>
             <li><a class="dropdown-item" href="#">Privancy and Data</a></li>
@@ -81,10 +81,10 @@
       </li>
 
     </ul>
-    <div class="tab-content" id="myTabContent">
+    <div class="tab-content m-2 p-2" id="myTabContent">
       <!-- pegar aqui los post para la grilla-->
       <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-        <div class="row">
+        <div class="row ">
           <div class="col-4 card p-2">
             <!-- Primer post -->
             <img class="card-img img-fluid" src="img/playa.jpg" />
@@ -129,7 +129,6 @@
         </div>
 
       </div>
-      ...
     </div>
     <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
       <!-- PEGAR AQUI LOS POST PARA UNA FILA -->
@@ -264,7 +263,6 @@
     <div class="button d-flex justify-content-end">
       <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Volver a inicio</a>
     </div>
-      ...
     </div>
   </div>
   </div>
@@ -278,7 +276,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="mb-3">
@@ -286,9 +284,10 @@
             <textarea class="form-control" placeholder="Add the captionof your post here"
               id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <div>
-            <i class="bi bi-camera-fill"></i>
-            <i class="bi bi-geo-alt-fill"></i>
+          <div class="d-flex  mt-0">
+            <button type="button" class="btn " data-bs-dismiss="modal" aria-label="Close"> <i class="bi bi-camera-fill"></i></button>
+            <button type="button" class="btn " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-geo-alt-fill"></i></button>
+            
           </div>
         </div>
         <div class="modal-footer">
