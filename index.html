@@ -49,12 +49,12 @@
               Create a new post
             </button>
         </div>
-        <div class="btn-group ps-2 dropdown-center" role="group">
+        <div class="btn-group ps-2 " role="group">
           <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
             aria-expanded="false">
             <i class="bi bi-gear-fill"></i>
           </button>
-          <ul class="dropdown-menu ">
+          <ul class="dropdown-menu dropdown-menu-lg-end">
             <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><a class="dropdown-item" href="#">Accesibily</a></li>
             <li><a class="dropdown-item" href="#">Privancy and Data</a></li>
@@ -81,190 +81,211 @@
       </li>
 
     </ul>
-    <div class="tab-content m-2 p-2" id="myTabContent">
+    <div class="tab-content " id="myTabContent">
       <!-- pegar aqui los post para la grilla-->
       <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-        <div class="row ">
-          <div class="col-4 card p-2">
-            <!-- Primer post -->
-            <img class="card-img img-fluid" src="img/playa.jpg" />
+        <!-- Primer row -->
+        <div class="row row-col-md-4 g-4 pb-4 ">
+        <!-- Primer post -->
+          <div class="col  ">
+            <div class="card">
+              <img class="card-img img-fluid" src="img/playa.jpg" />
+            </div>
           </div>
-          <div class="col-4 card p-2">
             <!-- segundo post -->
-            <img class="card-img img-fluid " src="img/Lobo bosque.jpg" />
+          <div class="col ">
+            <div class="card">
+              <img class="card-img img-fluid " src="img/Lobo bosque.jpg" />
+            </div>
           </div>
-          <div class="col-4 card p-2">
-            <!-- tercero post -->
-            <img class="card-img img-fluid" src="img/perro feliz.jpg" />
+           <!-- tercero post -->
+          <div class="col ">
+            <div class="card">
+              <img class="card-img img-fluid" src="img/perro feliz.jpg" />
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-4 card p-2">
-            <!-- cuarto post -->
-            <img class="card-img img-fluid" src="img/love.jpg" />
+        <!-- segundo row -->
+        <div class="row row-col-md-4 g-4 pb-4">
+    <!-- cuarto post -->
+        <div class="col  ">
+            <div class="card">
+              <img class="card-img img-fluid" src="img/love.jpg" />
+            </div>
           </div>
-          <div class="col-4 card p-2">
-            <!-- quinto post -->
-            <img class="card-img img-fluid" src="img/amigos.jpg" />
+          <!-- quinto post -->
+          <div class="col  ">
+            <div class="card">
+              <img class="card-img img-fluid" src="img/amigos.jpg" />
+            </div>
           </div>
-          <div class="col-4 card p-2">
-            <!-- sexto post -->
-            <img class="card-img img-fluid" src="img/love.jpg" />
+          <!-- sexto post -->
+          <div class="col  ">
+            <div class="card">
+              <img class="card-img img-fluid" src="img/love.jpg" />
+            </div>
           </div>
+        </div>
+        <!-- tercer row -->
+        <div class="row row-col-md-4 g-4 pb-4">
+          <!-- septimo post -->
+          <div class="col  ">
+            <div class="card">
+              <img class="card-img img-fluid" src="img/playa.jpg" />
+            </div>
           </div>
-          <div class="row">
-          <div class="col-4 card p-2">
-            <!-- septimo post -->
-            <img class="card-img img-fluid" src="img/playa.jpg" />
+          <!-- octavo post -->
+          <div class="col  ">
+            <div class="card">
+              <img class="card-img img-fluid" src="img/Lobo bosque.jpg" />
+            </div>
           </div>
-          <div class="col-4 card p-2">
-            <!-- octavo post -->
-            <img class="card-img img-fluid" src="img/Lobo bosque.jpg" />
-          </div>
-          <div class="col-4 card p-2">
             <!-- noveno post -->
-            <img class="card-img img-fluid" src="img/playa.jpg" />
-          </div>
-        
+            <div class="col  ">
+              <div class="card">
+                <img class="card-img img-fluid" src="img/playa.jpg" />
+              </div>
+            </div>
+
         </div>
 
       </div>
-    </div>
-    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-      <!-- PEGAR AQUI LOS POST PARA UNA FILA -->
-      <!-- Primer post -->
-    <div class="card p-4">
-      <div class="row">
-        <div class="col ">
-          <div class="card-title d-flex justify-content-between">
-            <h3>My crazy dog sparky</h3>
-            <p>08/26</p>
-          </div>
-        </div>
-      </div>
-      <img class="card-img-top" src="img/playa.jpg" />
-      <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
-      <p>Ejemplo de mi primer card en este proyecto</p>
-    </div>
-      <!-- segundo post -->
-    <div class="card p-4">
-      <div class="row">
-        <div class="col ">
-          <div class="card-title d-flex justify-content-between">
-            <h3>Lobo en el bosque</h3>
-            <p>08/26</p>
-          </div>
-        </div>
-      </div>
-      <img class="card-img-top" src="img/Lobo bosque.jpg" />
-      <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
-      <p>Ejemplo de mi primer card en este proyecto</p>
-    </div>
-      <!-- tercero post -->
-    <div class="card p-4">
-      <div class="row">
-        <div class="col ">
-          <div class="card-title d-flex justify-content-between">
-            <h3>Dulce navidad</h3>
-            <p>08/26</p>
-          </div>
-        </div>
-      </div>
-      <img class="card-img-top" src="img/perro feliz.jpg" />
-      <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
-      <p>Ejemplo de mi primer card en este proyecto</p>
-    </div>
-      <!-- cuarto post -->
-    <div class="card p-4">
-      <div class="row">
-        <div class="col ">
-          <div class="card-title d-flex justify-content-between">
-            <h3>Bebè en navidad</h3>
-            <p>08/26</p>
-          </div>
-        </div>
-      </div>
-      <img class="card-img-top" src="img/love.jpg" />
-      <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
-      <p>Ejemplo de mi primer card en este proyecto</p>
-    </div>
-      <!-- quinto post -->
-    <div class="card ">
-      <div class="row">
-        <div class="col ">
-          <div class="card-title d-flex justify-content-between">
-            <h3>Vacaciones</h3>
-            <p>08/26</p>
-          </div>
-        </div>
-      </div>
-      <img class="card-img-top" src="img/amigos.jpg" />
-      <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
-      <p>Ejemplo de mi primer card en este proyecto</p>
-    </div>
-      <!-- sexto post -->
-    <div class="card ">
-      <div class="row">
-        <div class="col ">
-          <div class="card-title d-flex justify-content-between">
-            <h3>Mi gatito descansando</h3>
-            <p>08/26</p>
-          </div>
-        </div>
-      </div>
-      <img class="card-img-top" src="img/love.jpg" />
-      <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
-      <p>Ejemplo de mi primer card en este proyecto</p>
-    </div>
-      <!-- septimo post -->
-    <div class="card ">
-      <div class="row">
-        <div class="col ">
-          <div class="card-title d-flex justify-content-between">
-            <h3>Bella Model</h3>
-            <p>08/26</p>
-          </div>
-        </div>
-      </div>
-      <img class="card-img-top" src="img/playa.jpg" />
-      <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
-      <p>Ejemplo de mi primer card en este proyecto</p>
-    </div>
-      <!-- octavo post -->
-    <div class="card ">
-      <div class="row">
-        <div class="col ">
-          <div class="card-title d-flex justify-content-between">
-            <h3>Amigos</h3>
-            <p>08/26</p>
-          </div>
-        </div>
-      </div>
-      <img class="card-img-top" src="img/Lobo bosque.jpg" />
-      <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
-      <p>Ejemplo de mi primer card en este proyecto</p>
-    </div>
-      <!-- noveno post -->
-    <div class="card ">
-      <div class="row">
-        <div class="col ">
-          <div class="card-title d-flex justify-content-between">
-            <h3>Playa y amigos</h3>
-            <p>08/26</p>
-          </div>
-        </div>
-      </div>
-      <img class="card-img-top" src="img/playa.jpg" />
-      <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
-      <p>Ejemplo de mi primer card en este proyecto</p>
-    </div>
 
-    <!-- Boton ir a inicio -->
-    <div class="button d-flex justify-content-end">
-      <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Volver a inicio</a>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <!-- PEGAR AQUI LOS POST PARA UNA FILA -->
+        <!-- Primer post -->
+        <div class="card p-4">
+          <div class="row">
+            <div class="col ">
+              <div class="card-title d-flex justify-content-between">
+                <h3>My crazy dog sparky</h3>
+                <p>08/26</p>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="img/playa.jpg" />
+          <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
+          <p>Ejemplo de mi primer card en este proyecto</p>
+        </div>
+        <!-- segundo post -->
+        <div class="card p-4">
+          <div class="row">
+            <div class="col ">
+              <div class="card-title d-flex justify-content-between">
+                <h3>Lobo en el bosque</h3>
+                <p>08/26</p>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="img/Lobo bosque.jpg" />
+          <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
+          <p>Ejemplo de mi primer card en este proyecto</p>
+        </div>
+        <!-- tercero post -->
+        <div class="card p-4">
+          <div class="row">
+            <div class="col ">
+              <div class="card-title d-flex justify-content-between">
+                <h3>Dulce navidad</h3>
+                <p>08/26</p>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="img/perro feliz.jpg" />
+          <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
+          <p>Ejemplo de mi primer card en este proyecto</p>
+        </div>
+        <!-- cuarto post -->
+        <div class="card p-4">
+          <div class="row">
+            <div class="col ">
+              <div class="card-title d-flex justify-content-between">
+                <h3>Bebè en navidad</h3>
+                <p>08/26</p>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="img/love.jpg" />
+          <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
+          <p>Ejemplo de mi primer card en este proyecto</p>
+        </div>
+        <!-- quinto post -->
+        <div class="card ">
+          <div class="row">
+            <div class="col ">
+              <div class="card-title d-flex justify-content-between">
+                <h3>Vacaciones</h3>
+                <p>08/26</p>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="img/amigos.jpg" />
+          <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
+          <p>Ejemplo de mi primer card en este proyecto</p>
+        </div>
+        <!-- sexto post -->
+        <div class="card ">
+          <div class="row">
+            <div class="col ">
+              <div class="card-title d-flex justify-content-between">
+                <h3>Mi gatito descansando</h3>
+                <p>08/26</p>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="img/love.jpg" />
+          <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
+          <p>Ejemplo de mi primer card en este proyecto</p>
+        </div>
+        <!-- septimo post -->
+        <div class="card ">
+          <div class="row">
+            <div class="col ">
+              <div class="card-title d-flex justify-content-between">
+                <h3>Bella Model</h3>
+                <p>08/26</p>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="img/playa.jpg" />
+          <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
+          <p>Ejemplo de mi primer card en este proyecto</p>
+        </div>
+        <!-- octavo post -->
+        <div class="card ">
+          <div class="row">
+            <div class="col ">
+              <div class="card-title d-flex justify-content-between">
+                <h3>Amigos</h3>
+                <p>08/26</p>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="img/Lobo bosque.jpg" />
+          <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
+          <p>Ejemplo de mi primer card en este proyecto</p>
+        </div>
+        <!-- noveno post -->
+        <div class="card ">
+          <div class="row">
+            <div class="col ">
+              <div class="card-title d-flex justify-content-between">
+                <h3>Playa y amigos</h3>
+                <p>08/26</p>
+              </div>
+            </div>
+          </div>
+          <img class="card-img-top" src="img/playa.jpg" />
+          <p class="d-flex justify-content-start"><strong>204 likes</strong></p>
+          <p>Ejemplo de mi primer card en este proyecto</p>
+        </div>
+
+        <!-- Boton ir a inicio -->
+        <div class="button d-flex justify-content-end">
+          <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Volver a inicio</a>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
   </div>
 
 
@@ -279,15 +300,17 @@
           <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div class="mb-3">
+          <div class="mb-1">
             <label for="exampleFormControlTextarea1" class="form-label">Caption:</label>
             <textarea class="form-control" placeholder="Add the captionof your post here"
               id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <div class="d-flex  mt-0">
-            <button type="button" class="btn " data-bs-dismiss="modal" aria-label="Close"> <i class="bi bi-camera-fill"></i></button>
-            <button type="button" class="btn " data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-geo-alt-fill"></i></button>
-            
+            <button type="button" class="btn py-0 " data-bs-dismiss="modal" aria-label="Close"> <i
+                class="bi bi-camera-fill"></i></button>
+            <button type="button" class="btn py-0 " data-bs-dismiss="modal" aria-label="Close"><i
+                class="bi bi-geo-alt-fill"></i></button>
+
           </div>
         </div>
         <div class="modal-footer">
@@ -296,14 +319,15 @@
         </div>
       </div>
     </div>
-    <!-- PEGAR EL CONTENIDO DEL MODAL -->
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"></script>
+  </div>
+  <!-- PEGAR EL CONTENIDO DEL MODAL -->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 
 </body>
 
